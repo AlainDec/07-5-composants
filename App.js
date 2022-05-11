@@ -17,19 +17,17 @@ const styles = StyleSheet.create({
     justifyContent: 'center',    
   },
   touchable: {
-    backgroundColor: 'green',
-    borderWidth: 1,
-    borderColor: 'black',
     width: '60%',
+    justifyContent: 'center', 
     height: 50,
-    elevation: 8,
+    borderWidth: 1,
+    backgroundColor: 'green',
+    borderColor: 'black',
+    elevation: 20,
   },
   text: {
-    flex: 1,
+    alignSelf: 'center',
     textTransform: 'uppercase',
     color: 'white',
-    alignItems: 'center',
-    alignSelf: 'center',
-    height: 50,
   }
 });
